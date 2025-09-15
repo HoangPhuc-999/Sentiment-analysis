@@ -22,7 +22,7 @@ members:
 - Use `git` commands to commit your changes. 
 - Always check `Projects` to see incoming tasks and deadlines.
 - Work directly on this branch `main`. Do not switch to any other branch.
-  
+- Make sure to follow this workflow: `pull` -> edit  -> `add` -> `commit` -> `push`.
 ## Group Assignments
 ### Group Assignment 1: [Sentiment Analysis](https://drive.google.com/file/d/11RxTukdQlI3vEg4vMixkn7epLKfuDhd6/view)
 - Interactive interface to analyze sentiment from Twitter's tweets.
