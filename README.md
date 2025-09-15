@@ -12,6 +12,11 @@ members:
 - Ngo Hoang Phuc
 ```
 
+## Prerequisites
+- [Anaconda/Miniconda](https://www.anaconda.com/download)
+- Visual Studio Code
+- Other packages (will be listed later in requirements.txt)
+
 ## Group Assignment 1: [Sentiment Analysis](https://drive.google.com/file/d/11RxTukdQlI3vEg4vMixkn7epLKfuDhd6/view)
 - Interactive interface to analyze sentiment from Twitter's tweets.
 
