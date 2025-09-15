@@ -13,15 +13,18 @@ members:
 ```
 
 ## Prerequisites
-- [Anaconda/Miniconda](https://www.anaconda.com/download)
-- Visual Studio Code
+- [Anaconda/Miniconda](https://www.anaconda.com/download) to create your Python environment. 
+- Git for Windows if you are using Windows. For Mac/Linux, use any package-manager to install `git` (e.g: brew install git)
 - Other packages (will be listed later in requirements.txt)
 
-## Tasks
+## Work Protocol
+- You must create a seperated environment for this repo! For this repo, **Python 3.11.13** is preferred.
+- Use `git` commands to commit your changes. 
 - Always check `Projects` to see incoming tasks and deadlines.
-- Work directly on this branch `main`.
+- Work directly on this branch `main`. Do not switch to any other branch.
   
-## Group Assignment 1: [Sentiment Analysis](https://drive.google.com/file/d/11RxTukdQlI3vEg4vMixkn7epLKfuDhd6/view)
+## Group Assignments
+### Group Assignment 1: [Sentiment Analysis](https://drive.google.com/file/d/11RxTukdQlI3vEg4vMixkn7epLKfuDhd6/view)
 - Interactive interface to analyze sentiment from Twitter's tweets.
 
 
