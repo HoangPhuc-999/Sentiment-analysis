@@ -7,7 +7,7 @@
 conda create --name ml_env
 conda activate ml_env
 conda install python==3.11.13
-pip install -r requirements.txt
+pip install --force-reinstall --ignore-installed --upgrade -r requirements.txt
 ```
 
 ## Set default environment
