@@ -6,3 +6,13 @@ seaborn
 jupyter
 tensorflow
 nltk
+chainlit
+langchain
+langchain-core
+langchain-google-genai
+langchain-openai
+langchain-anthropic
+google-api-python-client
+fastapi
+uvicorn
+python-dotenv
