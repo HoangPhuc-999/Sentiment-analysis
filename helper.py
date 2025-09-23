@@ -8,7 +8,7 @@ classification_modeL_cache = {}
 
 llm_model_cache = {}
 
-def get_llm(model_name="gemini-2.5-flash-lite"):
+def get_llm(model_name="gemini-2.5-flash-lite"): 
     return ChatGoogleGenerativeAI(
         model=model_name,
         temperature=0.6,
@@ -36,11 +36,14 @@ prompt = PromptTemplate(
 eval_prompt = PromptTemplate(
     input_variables=["text"],
     template="""
-    Classify the sentiment of the following text as Positive or Negative.
-    TEXT:
+    You are agent who analyze the sentiment in Twitter's tweets.
+    LIST OF TWEETS:
     {text}
 
-    Provide the sentiment only without any explanation, in the format:
-    "positive" or "negative"
+    INSTRUCTIONS
+    For each tweet in LIST OF TWEETS, analyze the sentiment only without any explanation, in the format: "positive" or "negative"
+
+    EXAMPLE:
+    ["positive", "negative", "positive", "negative", "positive"]
     """
 )
