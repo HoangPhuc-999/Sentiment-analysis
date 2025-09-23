@@ -32,3 +32,15 @@ prompt = PromptTemplate(
 
     Given the above text and sentiment prediction, please analyze the user's content.
     """)
+
+eval_prompt = PromptTemplate(
+    input_variables=["text"],
+    template="""
+    Classify the sentiment of the following text as Positive or Negative.
+    TEXT:
+    {text}
+
+    Provide the sentiment only without any explanation, in the format:
+    "positive" or "negative"
+    """
+)
